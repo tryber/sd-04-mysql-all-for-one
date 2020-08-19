@@ -1,2 +1,2 @@
-SELECT COUNT((employee_id = 5 or employee_id = 6) AND shipper_id = 2)
-  AS 'orders_count' FROM northwind.orders;
+SELECT COUNT(*) AS 'orders_count' FROM northwind.orders
+WHERE employee_id in (5, 6) AND shipper_id = 2;

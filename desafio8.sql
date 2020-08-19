@@ -1,3 +1,7 @@
 SELECT 
     (5 + 6) AS A, 'de' AS Trybe, (2 + 8) AS eh
 FROM northwind.products LIMIT 1;
+<<<<<<< HEAD
+=======
+
+>>>>>>> ba8ce6c76c14dbc41eb512fdb1b64d4e042efb6e

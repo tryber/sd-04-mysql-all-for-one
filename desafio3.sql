@@ -1,1 +1,1 @@
-USE northwind;
+SELECT id FROM northwind.products;

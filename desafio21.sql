@@ -1,4 +1,4 @@
-INSERT INTO order_detailsINSERT INTO order_details (
+INSERT INTO order_details (
         order_id,
         product_id,
         quantity,
@@ -19,8 +19,8 @@ VALUES (
         NULL,
         NULL,
         129
-    )
-VALUES (
+    ),
+    (
         69,
         80,
         15.0000,
@@ -30,4 +30,4 @@ VALUES (
         NULL,
         NULL,
         129
-    )
+    );

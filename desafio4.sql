@@ -1,0 +1,1 @@
+SELECT COUNT(product_name) AS qnt FROM products; 

@@ -1,2 +1,2 @@
 SELECT id
-FROM products
+FROM products;

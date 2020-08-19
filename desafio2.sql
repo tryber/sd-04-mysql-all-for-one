@@ -1,2 +1,2 @@
 -- Requirement 2
-select * from products;
+select * from northwind.products;

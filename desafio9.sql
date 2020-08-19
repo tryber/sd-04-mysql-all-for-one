@@ -1,3 +1,3 @@
 -- Requirement 9
 select notes from northwind.purchase_orders
-where notes like '%';
+where notes is not null;

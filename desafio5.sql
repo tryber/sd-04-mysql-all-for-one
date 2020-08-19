@@ -1,3 +1,3 @@
 SELECT *
 FROM products
-limit 4, 9;
+limit 3, 10;

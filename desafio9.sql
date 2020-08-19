@@ -1,2 +1,2 @@
 select notes from purchase_orders
-where notes <> 'null';
+where notes is not null;

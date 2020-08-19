@@ -1,4 +1,4 @@
 SELECT *
 FROM purchase_orders
 WHERE created_by >= 3
-ORDER BY created_by ASC, id ASC;
+ORDER BY created_by DESC, id DESC;

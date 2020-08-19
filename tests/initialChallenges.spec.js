@@ -14,9 +14,24 @@ describe('Desafios iniciais', () => {
 
     importer.disconnect();
 
-    sequelize = new Sequelize(
-      `mysql://${process.env.MYSQL_USER}:${process.env.MYSQL_PASSWORD}@${process.env.HOSTNAME}:3306/northwind`
-    );
+    // sequelize = new Sequelize(
+    //   `mysql://${process.env.MYSQL_USER}:${process.env.MYSQL_PASSWORD}@${process.env.HOSTNAME}:3306/northwind`
+    // );
+    sequelize = new Sequelize('northwind', process.env.MYSQL_USER, process.env.MYSQL_PASSWORD, {
+      host: process.env.HOSTNAME,
+      dialect: "mysql",
+      define: {},
+      dialectOptions: {
+        options: {
+          requestTimeout: 60000
+        }
+      },
+      pool: {
+        max: 10,
+        min: 0,
+        idle: 10000
+      },
+    });
   });
 
   afterAll(async () => {

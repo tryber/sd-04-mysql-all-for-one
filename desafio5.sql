@@ -1,3 +1,4 @@
 SELECT 
     * FROM
-    northwind.products LIMIT 3, 11;
+    northwind.products LIMIT 3, 10;
+

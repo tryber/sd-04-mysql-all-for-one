@@ -1,1 +1,1 @@
-SELECT notes FROM purchase_orders where purchase_orders.notes IS NULL;
+SELECT 5+6 as A, 'de' as Trybe, 2+8 as eh;

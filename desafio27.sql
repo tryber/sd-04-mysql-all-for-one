@@ -1,1 +1,1 @@
-delete from order_detais;
+delete from order_details;

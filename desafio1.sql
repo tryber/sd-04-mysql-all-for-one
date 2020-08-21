@@ -1,1 +1,1 @@
-# abrindo o projeto
+select product_name from northwind.products;

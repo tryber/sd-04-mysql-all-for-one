@@ -1,1 +1,1 @@
-delete from order_details where unit_price < 10000;
+delete from order_details where unit_price < 10.0000;

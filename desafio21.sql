@@ -3,4 +3,3 @@ INSERT INTO northwind.order_details
 VALUES
   (69, 80, 15.0000, 15.0000, 2, 129),
   (69, 80, 15.0000, 15.0000, 2, 129);
-  

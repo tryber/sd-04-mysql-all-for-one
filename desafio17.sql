@@ -1,4 +1,4 @@
-SELECT *
+SELECT id,
+    supplier_id
 FROM purchase_orders
-WHERE supplier_id = 3
-    AND status_id = 2;
+WHERE supplier_id IN (1, 3, 5, 7);

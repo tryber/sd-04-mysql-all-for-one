@@ -2,4 +2,4 @@
 -- quarto registro até o décimo terceiro,
 -- incluindo tanto um quanto o outro. Obs.: não use where ou order by
 
-SELECT * from SELECT * FROM northwind.products LIMIT 10 OFFSET 3;
+SELECT * FROM northwind.products LIMIT 10 OFFSET 3;

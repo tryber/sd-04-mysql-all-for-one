@@ -4,7 +4,6 @@ const Importer = require('mysql-import');
 
 describe('Desafios sobre filtragem de dados', () => {
   let sequelize;
-
   
   beforeAll(async () => {
     const importer = new Importer(
